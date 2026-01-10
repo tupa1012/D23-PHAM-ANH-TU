@@ -8,6 +8,21 @@
 
 dạng bit nối tiếp giữa các thiết bị 
 
+- uart được cấu thành từ các thành phần :
+
+    + bộ phát tx
+    + bộ thu rx
+    + bộ tạo tốc độ baudrate
+    + thanh ghi dữ liệu
+    + thanh ghi điều khiển và trạng thái
+    + đường truyền tx , rx , gnd
+
+- thành phần làm uart không đồng bộ chính là bộ tạo baudrate ví nó ko có clock mà bộ chia 
+
+baudrate của mỗi thiết bị là khác nhau nên chính cái này làm nó không đồng bộ và có thể do 
+
+chính cái bit start 
+
 - Uart have a task : 
 
     + Chuyển dữ liêu song song bên trong CPU (8/16 bit) 
