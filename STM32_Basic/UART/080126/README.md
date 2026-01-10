@@ -23,6 +23,10 @@ baudrate của mỗi thiết bị là khác nhau nên chính cái này làm nó 
 
 chính cái bit start 
 
+- 1 phần nữa ko đồng bộ là do tx cứ gửi , rx ko nhận vì 2 cái này độc lập nên sẽ có cách 
+
+để chúng nhận dữ liệu sẽ hiểu sâu trong cái frame truyền nhé 
+
 - Uart have a task : 
 
     + Chuyển dữ liêu song song bên trong CPU (8/16 bit) 
